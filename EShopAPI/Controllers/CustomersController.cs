@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace EShopAPI.Controllers
@@ -19,7 +20,11 @@ namespace EShopAPI.Controllers
         [HttpGet]
         public IActionResult GetCustomer()
         {
-            return new ObjectResult(_context.Customer);
+            var result= new ObjectResult(_context.Customer)
+            {
+                StatusCode = (int)HttpStatusCode.OK
+            };
+            return result;
         }
         [HttpGet("{id}")]
         public async  Task<IActionResult> GetCustomer([FromRoute] int id)
