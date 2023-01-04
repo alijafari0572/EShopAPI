@@ -34,6 +34,10 @@ namespace EShopAPI
                 options.UseSqlServer("Data Source=.;Initial Catalog=EShopAPI_DB;Integrated Security=True;");
             });
             services.AddTransient<ICustomerRepository,CustomerRepository>();
+            services.AddTransient<IProductsRepository, ProductsRepository>();
+            services.AddTransient<ISalesPersonsRepository, SalesPersonsRepository>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
