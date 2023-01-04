@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj": {}
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj": {}
   },
   "projects": {
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj": {
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj",
+        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj",
         "projectName": "EShopAPI",
-        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj",
+        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\obj\\",
+        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
