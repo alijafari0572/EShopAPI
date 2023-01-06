@@ -36,7 +36,7 @@ namespace EShopAPI
             services.AddTransient<ICustomerRepository,CustomerRepository>();
             services.AddTransient<IProductsRepository, ProductsRepository>();
             services.AddTransient<ISalesPersonsRepository, SalesPersonsRepository>();
-
+            services.AddResponseCaching();
 
         }
 
@@ -47,7 +47,7 @@ namespace EShopAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseResponseCaching();
             app.UseRouting();
 
             app.UseAuthorization();
