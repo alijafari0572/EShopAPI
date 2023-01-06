@@ -37,6 +37,7 @@ namespace EShopAPI
             services.AddTransient<IProductsRepository, ProductsRepository>();
             services.AddTransient<ISalesPersonsRepository, SalesPersonsRepository>();
             services.AddResponseCaching();
+            services.AddMemoryCache();
 
         }
 

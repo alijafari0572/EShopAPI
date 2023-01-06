@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I8/XjCeXVraX19YSKkm8PSa21g7wD5aDnKHbtVzx4OGKIDkUMqDg8oog1Yu9SSl6FHQd3ZBhg1ra4v/+mg38Fg==",
+  "success": true,
+  "projectFilePath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\WebClient\\WebClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -3,6 +3,7 @@ using EShopAPI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -14,14 +15,16 @@ namespace EShopAPI.Controllers
     public class CustomersController : ControllerBase
     {
         private ICustomerRepository _customerRepository;
+      
 
         public CustomersController(ICustomerRepository customerRepository)
         {
             _customerRepository = customerRepository;
+        
         }
 
         [HttpGet]
-        [ResponseCache(Duration =60)]
+        //[ResponseCache(Duration =60)]
         public IActionResult GetCustomer()
         {
             var result= new ObjectResult( _customerRepository.GetAll())

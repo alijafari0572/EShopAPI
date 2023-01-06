@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EZp145ZizYFiqYONyO7f3ChPaLqY/iwwSpbFDbttyQeOgmu/WCVargctMkNPh8a7+aB8VX1DBwtTOOrW0VqK0w==",
+  "dgSpecHash": "xW6BBSr1/5Cp4zUKR6AhV257zAKfsfFGNzRXes1CIpZyK3lWBV9ejb4wMrTzFUxwfqOfuJ1jY3THiF9Ew+JtJw==",
   "success": true,
-  "projectFilePath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj",
+  "projectFilePath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

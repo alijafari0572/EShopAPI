@@ -9357,9 +9357,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj",
+      "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj",
       "projectName": "EShopAPI.test",
-      "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj",
+      "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj",
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\obj\\",
       "projectStyle": "PackageReference",
@@ -9386,8 +9386,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj": {
-              "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj"
+            "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj": {
+              "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj"
             }
           }
         }
