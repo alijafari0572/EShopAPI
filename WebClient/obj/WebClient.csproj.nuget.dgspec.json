@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\WebClient\\WebClient.csproj": {}
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\WebClient\\WebClient.csproj": {}
   },
   "projects": {
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\WebClient\\WebClient.csproj": {
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\WebClient\\WebClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\WebClient\\WebClient.csproj",
+        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\WebClient\\WebClient.csproj",
         "projectName": "WebClient",
-        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\WebClient\\WebClient.csproj",
+        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\WebClient\\WebClient.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\WebClient\\obj\\",
+        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\WebClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,6 +47,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

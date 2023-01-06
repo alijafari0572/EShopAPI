@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ukFoieoB9xUSu5Y293P4l5KfI8ZOOQN/sAExgVk+cNDSoRKDul1gNrfLIcITbU3DRhsRpcF8pE+BElcHpCfcw==",
+  "dgSpecHash": "4Yg9p7IpkB1LDzHdCWBmRORyi3uKnJOlC2ZxIO5dc7AaImu/64ZfDttabzcxIJjUpOJofGQC7bmTiMksdljlVw==",
   "success": true,
-  "projectFilePath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj",
+  "projectFilePath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

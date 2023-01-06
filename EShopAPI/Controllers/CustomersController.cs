@@ -15,19 +15,19 @@ namespace EShopAPI.Controllers
     public class CustomersController : ControllerBase
     {
         private ICustomerRepository _customerRepository;
-      
+
 
         public CustomersController(ICustomerRepository customerRepository)
         {
             _customerRepository = customerRepository;
-        
+
         }
 
         [HttpGet]
         //[ResponseCache(Duration =60)]
         public IActionResult GetCustomer()
         {
-            var result= new ObjectResult( _customerRepository.GetAll())
+            var result = new ObjectResult(_customerRepository.GetAll())
             {
                 StatusCode = (int)HttpStatusCode.OK
             };
@@ -35,7 +35,7 @@ namespace EShopAPI.Controllers
             return result;
         }
         [HttpGet("{id}")]
-        public async  Task<IActionResult> GetCustomer([FromRoute] int id)
+        public async Task<IActionResult> GetCustomer([FromRoute] int id)
         {
             if (await CustomerExist(id))
             {
@@ -43,11 +43,11 @@ namespace EShopAPI.Controllers
                 return Ok(customer);
             }
             else return NotFound();
-           
+
         }
-        private  async Task<bool> CustomerExist(int id)
+        private async Task<bool> CustomerExist(int id)
         {
-             return await _customerRepository.IsExist(id);
+            return await _customerRepository.IsExist(id);
         }
 
         [HttpPost]
@@ -62,7 +62,7 @@ namespace EShopAPI.Controllers
             return CreatedAtAction("GetCustomer", new { id = customer.CustomerId }, customer);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCustomer([FromRoute]int id,Customer customer)
+        public async Task<IActionResult> PutCustomer([FromRoute] int id, Customer customer)
         {
             await _customerRepository.Update(customer);
             return Ok(customer);
@@ -70,7 +70,7 @@ namespace EShopAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletCustomer([FromRoute] int id)
         {
-             await _customerRepository.Remove(id);
+            await _customerRepository.Remove(id);
             return Ok();
         }
     }

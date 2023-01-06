@@ -39,3 +39,4 @@ F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\obj\Debug\netcoreapp3.1\Web
 F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\obj\Debug\netcoreapp3.1\WebClient.pdb
 F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\obj\Debug\netcoreapp3.1\WebClient.genruntimeconfig.cache
 F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\obj\Debug\netcoreapp3.1\WebClient.csproj.CopyComplete
+F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
