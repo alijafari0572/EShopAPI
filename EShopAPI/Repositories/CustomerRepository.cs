@@ -55,7 +55,7 @@ namespace EShopAPI.Repositories
 
         public IEnumerable<Customer> GetAll()
         {
-            return _context.Customer.ToList();
+            return  _context.Customer.ToList();
         }
 
         public async Task<bool> IsExist(int id)

@@ -24,6 +24,34 @@ namespace WebClient.Controllers
         {
             return View(_customer.GetAllCustomer());
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Customer customer)
+        {
+            _customer.AddCustomer(customer);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Edit(int id)
+        {
+            var customer=_customer.GetCustomerById(id);
+            return View(customer);
+        }
+        [HttpPost]
+        public IActionResult Edit(Customer customer)
+        {
+            _customer.UpdateCustomer(customer);
+            return RedirectToAction("Index");
+
+        }
+        public IActionResult Delet(int id)
+        {
+            _customer.DeletCustomer(id);
+            return RedirectToAction("Index");
+
+        }
 
         public IActionResult Privacy()
         {

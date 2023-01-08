@@ -21,16 +21,11 @@ namespace WebClient.Repositores
         }
         public List<Customer> GetAllCustomer()
         {
-            var result =  _client.GetStringAsync(apiURL).Result;
-            if (result != null)
-            {
-                List<Customer> list = JsonConvert.DeserializeObject<List<Customer>>(result);
-                return list;
-            }
-            else
-            {
-                return null;
-            }
+            var result = _client.GetStringAsync(apiURL).Result;
+
+            List<Customer> list = JsonConvert.DeserializeObject<List<Customer>>(result);
+
+            return list;
         }
 
         public Customer GetCustomerById(int customerid)
@@ -49,7 +44,7 @@ namespace WebClient.Repositores
         {
             string jsoncustomer = JsonConvert.SerializeObject(customer);
             StringContent content = new StringContent(jsoncustomer, Encoding.UTF8, "application/json");
-            var result = _client.PutAsync(apiURL, content).Result;
+            var result = _client.PutAsync(apiURL+"/"+customer.CustomerId, content).Result;
         }
         public void DeletCustomer(int customerId)
         {
