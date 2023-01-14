@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Text.Unicode;
@@ -19,10 +20,10 @@ namespace WebClient.Repositores
         {
             _client = new HttpClient();
         }
-        public List<Customer> GetAllCustomer()
+        public List<Customer> GetAllCustomer(string token)
         {
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var result = _client.GetStringAsync(apiURL).Result;
-
             List<Customer> list = JsonConvert.DeserializeObject<List<Customer>>(result);
 
             return list;

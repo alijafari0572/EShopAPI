@@ -159,3 +159,7 @@ F:\ویدیو اموزشی\WebAPI\EShopAPi\WebClient\bin\Debug\netcoreapp3.1\zh-
 F:\ویدیو اموزشی\WebAPI\EShopAPi\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 F:\ویدیو اموزشی\WebAPI\EShopAPi\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
 F:\ویدیو اموزشی\WebAPI\EShopAPi\WebClient\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Login.cshtml.g.cs
+F:\ویدیو اموزشی\WebAPI\EShopAPI\WebClient\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll

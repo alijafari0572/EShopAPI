@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj": {}
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj": {}
   },
   "projects": {
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj": {
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj",
+        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj",
         "projectName": "EShopAPI.test",
-        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\EShopAPI.test.csproj",
+        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\EShopAPI.test.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI.test\\obj\\",
+        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI.test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -36,8 +36,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj": {
-                "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj"
+              "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj": {
+                "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj": {
+    "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj",
+        "projectUniqueName": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj",
         "projectName": "EShopAPI",
-        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\EShopAPI.csproj",
+        "projectPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\EShopAPI.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPi\\EShopAPI\\obj\\",
+        "outputPath": "F:\\ویدیو اموزشی\\WebAPI\\EShopAPI\\EShopAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -145,6 +145,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNet.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.7, )"

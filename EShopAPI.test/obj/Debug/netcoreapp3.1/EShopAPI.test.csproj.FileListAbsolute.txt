@@ -143,3 +143,5 @@ F:\ویدیو اموزشی\WebAPI\EShopAPi\EShopAPI.test\obj\Debug\netcoreapp3.1
 F:\ویدیو اموزشی\WebAPI\EShopAPi\EShopAPI.test\obj\Debug\netcoreapp3.1\EShopAPI.test.genruntimeconfig.cache
 F:\ویدیو اموزشی\WebAPI\EShopAPi\EShopAPI.test\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 F:\ویدیو اموزشی\WebAPI\EShopAPi\EShopAPI.test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI.test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI.test\bin\Debug\netcoreapp3.1\System.Web.Cors.dll

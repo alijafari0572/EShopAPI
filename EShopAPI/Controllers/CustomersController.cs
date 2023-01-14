@@ -1,5 +1,6 @@
 ﻿using EShopAPI.Contracts;
 using EShopAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,19 +13,17 @@ namespace EShopAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class CustomersController : ControllerBase
     {
         private ICustomerRepository _customerRepository;
-
-
         public CustomersController(ICustomerRepository customerRepository)
         {
             _customerRepository = customerRepository;
-
         }
-
         [HttpGet]
         //[ResponseCache(Duration =60)]
+      
         public IActionResult GetCustomer()
         {
             var result = new ObjectResult(_customerRepository.GetAll())
