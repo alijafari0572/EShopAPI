@@ -65,3 +65,8 @@ F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\runt
 F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\obj\Debug\netcoreapp3.1\EShopAPI.csproj.CopyComplete
 F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\obj\Debug\netcoreapp3.1\EShopAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ویدیو اموزشی\WebAPI\EShopAPI\EShopAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

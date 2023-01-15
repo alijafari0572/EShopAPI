@@ -21,6 +21,10 @@ namespace EShopAPI.Controllers
         {
             _customerRepository = customerRepository;
         }
+        /// <summary>
+        /// this method
+        /// </summary>
+        /// <returns>take all</returns>
         [HttpGet]
         //[ResponseCache(Duration =60)]
       
@@ -44,6 +48,11 @@ namespace EShopAPI.Controllers
             else return NotFound();
 
         }
+        //[HttpGet("ali",Name ="ali")]
+        //public IActionResult GetAli()
+        //{
+        //    return Content("Alijafari");
+        //}
         private async Task<bool> CustomerExist(int id)
         {
             return await _customerRepository.IsExist(id);

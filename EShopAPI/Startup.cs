@@ -4,18 +4,31 @@ using EShopAPI.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
 
 namespace EShopAPI
 {
@@ -31,6 +44,23 @@ namespace EShopAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("V1", new OpenApiInfo { Title = "My First Swagger", Version = "V1" });
+            });
+            //services.AddSwaggerGen(swagger =>
+            //{
+            //    services.AddSwaggerGen(c =>
+            //    {
+            //        c.SwaggerDoc("V1", new Microsoft.OpenApi.Models.OpenApiInfo
+            //        {
+            //            Title = "My First Swagger",
+            //            Version = "V1"
+            //        });
+            //    });
+
+            //    swagger.IncludeXmlComments(Path.Combine(Directory.GetCurrentDirectory(), @"bin\Debug\netcoreapp3.1", "EshopApi.xml"));
+            //});
             services.AddControllers();
             services.AddDbContext<EShopAPI_DBContext>(options =>
             {
@@ -81,6 +111,11 @@ namespace EShopAPI
             }
             app.UseResponseCaching();
             app.UseRouting();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/V1/swagger.json", "My First Swagger");
+            });
             app.UseCors("EnableCors");
             app.UseAuthentication();
             app.UseAuthorization();

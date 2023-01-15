@@ -16,4 +16,8 @@
     <ProjectReference Include="..\EShopAPI\EShopAPI.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Image\" />
+  </ItemGroup>
+
 </Project>

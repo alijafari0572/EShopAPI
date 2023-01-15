@@ -29,7 +29,7 @@ using WebClient.Models;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"189357b7a254019aa116995b1e934326c1e9719c", @"/Views/Auth/Login.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"74eabcf7e030352eff2473b217adffa5ad5752fa", @"/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Views_Auth_Login : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WebClient.Models.Login_Viewmodel>
+    public class Views_Auth_Login : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<WebClient.Models.LoginViewModel>
     #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -298,7 +298,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<WebClient.Models.Login_Viewmodel> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<WebClient.Models.LoginViewModel> Html { get; private set; } = default!;
         #nullable disable
     }
 }
